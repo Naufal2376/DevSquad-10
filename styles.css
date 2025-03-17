@@ -129,3 +129,57 @@ body {
 footer {
   background-color: #091353;
 }
+
+/*style page */
+.profile-image {
+  max-width: 95%;
+}
+.profile-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+.logo-unsri {
+  position: absolute; /* Ubah fixed ke absolute */
+  right: 0%;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 200px;
+  z-index: 1; /* Supaya di belakang gambar profil */
+
+}
+.logo-unsri img {
+  width: 100%;
+  opacity: 0.9; /* Transparansi sedikit agar menyatu */
+}
+
+/* style icon contact */
+.contact{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 50px;
+  
+}
+
+button{
+  width: 90px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #FFB300;
+}
+
+.container2{
+  margin-left: 30px;
+  display: flex;
+  gap: 70px;
+  margin-bottom: 50px;
+}
+
+.container2 img{
+  max-width: 450px;
+}
+
+#team{
+  margin-left: 20px;
+}
