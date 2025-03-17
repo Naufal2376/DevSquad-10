@@ -1,0 +1,82 @@
+[
+  {
+    "name": "M. Naufal Rafif Pratama",
+    "nim": "09031282429112",
+    "role": "Fullstack Developer",
+    "quote": "ikan hiu melayang-layang, codingan error pusing kepalaku sayang",
+    "username": "nfalrfif",
+    "foto": "images/bg1.jpg"
+  },
+  {
+    "name": "Agnes Carolina",
+    "nim": "09031182429004",
+    "role": "Statistika",
+    "quote": "Gabisa berkata-kata bisanya lihat coding merah",
+    "username": "gnscrln",
+    "foto": "images/bg1.jpg"
+  },
+  {
+    "name": "Zulfah Shabirah",
+    "nim": "09031282429043",
+    "role": "anu",
+    "quote": "Alhamdulillah udah bisa hello world",
+    "username": "zulfahshabb",
+    "foto": "images/bg1.jpg"
+  },
+  {
+    "name": "Wulan Suryani",
+    "nim": "09031282429076",
+    "role": "anu",
+    "quote": "Suka liat merah-merah apalagi uang tapi coding merah adek marah bang",
+    "username": "wlnsryn",
+    "foto": "images/bg1.jpg"
+  },
+  {
+    "name": "Zira Pertiwi",
+    "nim": "09031182429010",
+    "role": "Bermimpi",
+    "quote": "Coding and desain Sucks",
+    "username": "zira_pertiwi",
+    "foto": "images/bg1.jpg"
+  },
+  {
+    "name": "Feny",
+    "nim": "09031282429055",
+    "role": "Web Designer",
+    "quote": "Kalo ditanya pusingan mana ngehadepin design atau coding mah pusing dua-duanya",
+    "username": "fpenn7_",
+    "foto": "images/bg1.jpg"
+  },
+  {
+    "name": "M. Dimas Anwar",
+    "nim": "09031182429019",
+    "role": "Time Management",
+    "quote": "Kelola waktumu, atau waktulah yang akan mengendalikanmu",
+    "username": "m_dimas_anwar",
+    "foto": "images/bg1.jpg"
+  },
+  {
+    "name": "Yohanna Zulaikha",
+    "nim": "09031282429109",
+    "role": "Baker",
+    "quote": "Dua tiga kue raya, coding bukan kawan saya.",
+    "username": "yawhanaa",
+    "foto": "images/bg1.jpg"
+  },
+  {
+    "name": "Fahri Satyadi Yusuf",
+    "nim": "09031282429049",
+    "role": "AI Developer",
+    "quote": "10% ngoding 90% AI",
+    "username": "yadimeisteR",
+    "foto": "images/bg1.jpg"
+  },
+  {
+    "name": "Kesya Aulia",
+    "nim": "09031282429052",
+    "role": "anu",
+    "quote": "Hnimup klo ga ctrl+c ya ctrl+v",
+    "username": "ksya.rh",
+    "foto": "images/bg1.jpg"
+  }
+]

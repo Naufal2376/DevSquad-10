@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Algerian&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+  background-image: radial-gradient(#070144, #2316CF);
+}
+
+.navbar {
+  height: 70px;
+  background-color: #091353;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+  margin-bottom: 4px;
+}
+
+.text-logo {
+  font-family: 'Orbitron', sans-serif;
+  color: #FFB300;
+  font-size: 1.5rem;
+}
+
+.text-logo span {
+  font-family: 'Algerian', sans-serif;
+  color: white;
+}
+
+#navbarNav li a {
+  font-family: 'Quicksand', sans-serif;
+  color: #FFB300;
+}
+
+#navbarNav li a:hover {
+  color: white;
+}
+
+.hero {
+  background-image: url('images/UNSRI.jpg');
+  width: 100%;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(7, 1, 68, 0.88); /* Opacity 50% */
+  color: white;
+}
+
+.marquee-container {
+  overflow: hidden; /* Pastikan konten yang meluber tidak terlihat */
+  white-space: nowrap; /* Mencegah wrap pada konten marquee */
+  width: 100%; /* Lebar penuh */
+  position: relative; /* Posisi relatif untuk konten di dalamnya */
+}
+
+.marquee-inner {
+  display: inline-block; /* Konten marquee diatur inline */
+}
+
+.marquee-item {
+  display: inline-block;
+  width: 300px; /* Lebar card */
+  min-width: 300px; /* Pastikan lebar card tidak menyusut */
+  height: 380px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  margin-right: 20px; /* Jarak antar card */
+  overflow: hidden; /* Pastikan konten tidak meluber */
+}
+
+/* Gambar di Card */
+.marquee-item img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover; /* Pastikan gambar proporsional */
+}
+
+/* Card Body */
+.card-body {
+  padding: 15px;
+  white-space: normal; /* Teks bisa wrap */
+}
+
+/* Card Title */
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Card Subtitle */
+.card-subtitle {
+  font-size: 0.9rem;
+  color: #6c757d; /* Warna text-muted */
+}
+
+/* Card Text (Quote) */
+.card-text {
+  font-size: 0.85rem;
+  margin: 10px 0;
+  word-wrap: break-word; /* Memastikan teks panjang tidak meluber */
+  overflow: hidden; /* Pastikan teks tidak keluar dari card */
+  text-overflow: ellipsis; /* Tambahkan ellipsis jika teks terlalu panjang */
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Batasi teks maksimal 3 baris */
+  -webkit-box-orient: vertical;
+}
+
+footer {
+  background-color: #091353;
+}
