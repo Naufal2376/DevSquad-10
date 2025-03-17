@@ -77,15 +77,50 @@ body {
 
 .marquee-item {
   display: inline-block;
-  width: 300px; /* Lebar card */
-  min-width: 300px; /* Pastikan lebar card tidak menyusut */
+  width: 300px;
   height: 380px;
-  background: white;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
-  margin-right: 20px; /* Jarak antar card */
-  overflow: hidden; /* Pastikan konten tidak meluber */
+  margin-right: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee-container::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	height: 96.5%;
+	width: 50px;
+	background: linear-gradient(90deg, rgba(7, 1, 68, 0.00) 0%, #05051D 100%);
+	z-index: 1;
+}
+
+.marquee-container::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	top: 0;
+	height: 96.5%;
+	width: 50px;
+	background: linear-gradient(-90deg, rgba(7, 1, 68, 0.00) 0%, #05051D 100%);
+	z-index: 1;
+}
+
+.card-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('images/bg1.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
 }
 
 /* Gambar di Card */
@@ -94,12 +129,20 @@ body {
   height: 200px;
   border-radius: 10px 10px 0 0;
   object-fit: cover; /* Pastikan gambar proporsional */
+  position: relative; /* Pastikan di atas gambar background */
+  z-index: 1;
+}
+
+.marquee-item .member-foto {
+  object-fit: contain;
 }
 
 /* Card Body */
 .card-body {
   padding: 15px;
   white-space: normal; /* Teks bisa wrap */
+  position: relative; /* Pastikan di atas gambar background */
+  z-index: 1;
 }
 
 /* Card Title */
@@ -118,11 +161,11 @@ body {
 .card-text {
   font-size: 0.85rem;
   margin: 10px 0;
-  word-wrap: break-word; /* Memastikan teks panjang tidak meluber */
-  overflow: hidden; /* Pastikan teks tidak keluar dari card */
-  text-overflow: ellipsis; /* Tambahkan ellipsis jika teks terlalu panjang */
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 3; /* Batasi teks maksimal 3 baris */
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
 

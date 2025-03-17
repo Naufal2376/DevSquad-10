@@ -5,7 +5,7 @@
     "role": "Fullstack Developer",
     "quote": "ikan hiu melayang-layang, codingan error pusing kepalaku sayang",
     "username": "nfalrfif",
-    "foto": "images/bg1.jpg"
+    "foto": "images/naufal/pall.png"
   },
   {
     "name": "Agnes Carolina",
@@ -13,7 +13,7 @@
     "role": "Statistika",
     "quote": "Gabisa berkata-kata bisanya lihat coding merah",
     "username": "gnscrln",
-    "foto": "images/bg1.jpg"
+    "foto": "images/agnes/agnes.png"
   },
   {
     "name": "Zulfah Shabirah",
@@ -21,7 +21,7 @@
     "role": "anu",
     "quote": "Alhamdulillah udah bisa hello world",
     "username": "zulfahshabb",
-    "foto": "images/bg1.jpg"
+    "foto": "images/zulfah/zulfah.png"
   },
   {
     "name": "Wulan Suryani",
@@ -29,7 +29,7 @@
     "role": "anu",
     "quote": "Suka liat merah-merah apalagi uang tapi coding merah adek marah bang",
     "username": "wlnsryn",
-    "foto": "images/bg1.jpg"
+    "foto": "images/wulan/wulan.png"
   },
   {
     "name": "Zira Pertiwi",
@@ -37,7 +37,7 @@
     "role": "Bermimpi",
     "quote": "Coding and desain Sucks",
     "username": "zira_pertiwi",
-    "foto": "images/bg1.jpg"
+    "foto": "images/zira/zira.png"
   },
   {
     "name": "Feny",
@@ -45,7 +45,7 @@
     "role": "Web Designer",
     "quote": "Kalo ditanya pusingan mana ngehadepin design atau coding mah pusing dua-duanya",
     "username": "fpenn7_",
-    "foto": "images/bg1.jpg"
+    "foto": "images/feny/Feny.png"
   },
   {
     "name": "M. Dimas Anwar",
@@ -53,7 +53,7 @@
     "role": "Time Management",
     "quote": "Kelola waktumu, atau waktulah yang akan mengendalikanmu",
     "username": "m_dimas_anwar",
-    "foto": "images/bg1.jpg"
+    "foto": "images/dimas/dhimaz.png"
   },
   {
     "name": "Yohanna Zulaikha",
@@ -61,7 +61,7 @@
     "role": "Baker",
     "quote": "Dua tiga kue raya, coding bukan kawan saya.",
     "username": "yawhanaa",
-    "foto": "images/bg1.jpg"
+    "foto": "images/hanna/hanna.png"
   },
   {
     "name": "Fahri Satyadi Yusuf",
@@ -69,7 +69,7 @@
     "role": "AI Developer",
     "quote": "10% ngoding 90% AI",
     "username": "yadimeisteR",
-    "foto": "images/bg1.jpg"
+    "foto": "images/fahri/Fahri.png"
   },
   {
     "name": "Kesya Aulia",
@@ -77,6 +77,6 @@
     "role": "anu",
     "quote": "Hnimup klo ga ctrl+c ya ctrl+v",
     "username": "ksya.rh",
-    "foto": "images/bg1.jpg"
+    "foto": "images/kesya/kesya.png"
   }
 ]
