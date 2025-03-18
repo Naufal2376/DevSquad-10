@@ -126,61 +126,73 @@ body {
   -webkit-box-orient: vertical;
 }
 .contact form {
-    max-width: 70rem;
-    margin: 1rem auto;
-    text-align: center;
-  }
-  
-  .contact form .inputBox {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
-  .contact form .inputBox input,
-  .contact form textarea {
-    width: 100%;
-    background: #e0d9f6;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    margin: 0.7rem 0;
-    font-size: 1.2rem;
-    color: white;
-    text-transform: none;
-  }
-  
-  .contact form .inputBox input::placeholder,
-  .contact form textarea::placeholder {
-    color: black;
-    text-transform: capitalize;
-  }
-  
-  .contact form .inputBox input:focus,
-  .contact form textarea:focus {
-    background: #e0d9f6;
-  }
-  
-  .contact form .inputBox input {
-    width: 49%;
-  }
-  
-  .contact form textarea {
-    resize: none;
-  }
+  max-width: 70rem;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.contact form .inputBox {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact form .inputBox input,
+.contact form textarea {
+  width: 100%;
+  background: #e0d9f6;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 0.7rem 0;
+  font-size: 1.2rem;
+  color: #333; /* Changed to a darker color for better contrast */
+  text-transform: none;
+  border: 1px solid transparent; /* Added border for focus effect */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.contact form .inputBox input::placeholder,
+.contact form textarea::placeholder {
+  color: black;
+  text-transform: capitalize;
+}
+
+.contact form .inputBox input:focus,
+.contact form textarea:focus {
+  background: #e0d9f6;
+  border-color: #8f7fad; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+.contact form .inputBox input {
+  width: 49%;
+}
+
+.contact form textarea {
+  resize: none;
+}
 
 .btn {
-    background-color: #8f7fad;
-    color: white; 
-    padding: 10px 20px; 
-    border: none; 
-    border-radius: 5px; 
-    font-size: 1.5rem; 
-    cursor: pointer; 
-    transition: background-color 0.3s; 
+  background-color: #8f7fad;
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  font-size: 1.5rem; 
+  cursor: pointer; 
+  transition: background-color 0.3s, transform 0.3s; /* Added transform transition */
 }
 
 .btn:hover {
-    background-color: #2e488d;
+  background-color: #2e488d;
+  transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .contact form .inputBox input {
+    width: 100%; /* Full width on smaller screens */
+  }
 }
 
 footer {
