@@ -5,7 +5,8 @@
     "role": "Fullstack Developer",
     "quote": "ikan hiu melayang-layang, codingan error pusing kepalaku sayang",
     "username": "nfalrfif",
-    "foto": "images/naufal/pall.png"
+    "foto": "images/naufal/pall.png",
+    "nickname": "naufal"
   },
   {
     "name": "Agnes Carolina",
@@ -13,7 +14,8 @@
     "role": "Statistika",
     "quote": "Gabisa berkata-kata bisanya lihat coding merah",
     "username": "gnscrln",
-    "foto": "images/agnes/agnes.png"
+    "foto": "images/agnes/agnes.png",
+    "nickname": "agnes"
   },
   {
     "name": "Zulfah Shabirah",
@@ -21,7 +23,8 @@
     "role": "anu",
     "quote": "Alhamdulillah udah bisa hello world",
     "username": "zulfahshabb",
-    "foto": "images/zulfah/zulfah.png"
+    "foto": "images/zulfah/zulfah.png",
+    "nickname": "zulfah"
   },
   {
     "name": "Wulan Suryani",
@@ -29,7 +32,8 @@
     "role": "anu",
     "quote": "Suka liat merah-merah apalagi uang tapi coding merah adek marah bang",
     "username": "wlnsryn",
-    "foto": "images/wulan/wulan.png"
+    "foto": "images/wulan/wulan.png",
+    "nickname": "wulan"
   },
   {
     "name": "Zira Pertiwi",
@@ -37,7 +41,8 @@
     "role": "Bermimpi",
     "quote": "Coding and desain Sucks",
     "username": "zira_pertiwi",
-    "foto": "images/zira/zira.png"
+    "foto": "images/zira/zira.png",
+    "nickname": "zira"
   },
   {
     "name": "Feny",
@@ -45,7 +50,8 @@
     "role": "Web Designer",
     "quote": "Kalo ditanya pusingan mana ngehadepin design atau coding mah pusing dua-duanya",
     "username": "fpenn7_",
-    "foto": "images/feny/Feny.png"
+    "foto": "images/feny/Feny.png",
+    "nickname": "feny"
   },
   {
     "name": "M. Dimas Anwar",
@@ -53,7 +59,8 @@
     "role": "Time Management",
     "quote": "Kelola waktumu, atau waktulah yang akan mengendalikanmu",
     "username": "m_dimas_anwar",
-    "foto": "images/dimas/dhimaz.png"
+    "foto": "images/dimas/dhimaz.png",
+    "nickname": "dimas"
   },
   {
     "name": "Yohanna Zulaikha",
@@ -61,7 +68,8 @@
     "role": "Baker",
     "quote": "Dua tiga kue raya, coding bukan kawan saya.",
     "username": "yawhanaa",
-    "foto": "images/hanna/hanna.png"
+    "foto": "images/hanna/hanna.png",
+    "nickname": "hanna"
   },
   {
     "name": "Fahri Satyadi Yusuf",
@@ -69,7 +77,8 @@
     "role": "AI Developer",
     "quote": "10% ngoding 90% AI",
     "username": "yadimeisteR",
-    "foto": "images/fahri/Fahri.png"
+    "foto": "images/fahri/Fahri.png",
+    "nickname": "fahri"
   },
   {
     "name": "Kesya Aulia",
@@ -77,6 +86,7 @@
     "role": "anu",
     "quote": "Hnimup klo ga ctrl+c ya ctrl+v",
     "username": "ksya.rh",
-    "foto": "images/kesya/kesya.png"
+    "foto": "images/kesya/kesya.png",
+    "nickname": "kesya"
   }
 ]
