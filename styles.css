@@ -125,6 +125,63 @@ body {
   -webkit-line-clamp: 3; /* Batasi teks maksimal 3 baris */
   -webkit-box-orient: vertical;
 }
+.contact form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+  }
+  
+  .contact form .inputBox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .contact form .inputBox input,
+  .contact form textarea {
+    width: 100%;
+    background: #e0d9f6;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 0.7rem 0;
+    font-size: 1.2rem;
+    color: white;
+    text-transform: none;
+  }
+  
+  .contact form .inputBox input::placeholder,
+  .contact form textarea::placeholder {
+    color: black;
+    text-transform: capitalize;
+  }
+  
+  .contact form .inputBox input:focus,
+  .contact form textarea:focus {
+    background: #e0d9f6;
+  }
+  
+  .contact form .inputBox input {
+    width: 49%;
+  }
+  
+  .contact form textarea {
+    resize: none;
+  }
+
+.btn {
+    background-color: #8f7fad;
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 1.5rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.btn:hover {
+    background-color: #2e488d;
+}
 
 footer {
   background-color: #091353;
