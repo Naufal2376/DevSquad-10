@@ -55,21 +55,28 @@
     </section>
 
     <!-- Contact Section -->
-  <section class="contact" id="contact">
-    <h1 class="heading text-4xl font-bold text-center"><span>contact</span> us</h1>
-    <form action="">
-      <div class="inputBox">
-        <input type="text" placeholder="name" />
-        <input type="email" placeholder="email" />
-      </div>
-      <div class="inputBox">
-        <input type="tel" placeholder="number" />
-        <input type="text" placeholder="subject" />
-      </div>
-      <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
-      <input type="submit" value="Send Message" class="btn" />
-    </form>
-  </section>
+<section class="contact" id="contact">
+  <h1 class="heading text-4xl font-bold text-center"><span>Contact</span> Us</h1>
+  <form action="submit_form.php" method="POST">
+    <div class="inputBox">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Name" required />
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Email" required />
+    </div>
+    <div class="inputBox">
+      <label for="number">Phone Number</label>
+      <input type="tel" id="number" name="number" placeholder="Phone Number" required />
+      
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" placeholder="Subject" required />
+    </div>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Message" cols="30" rows="10" required></textarea>
+    <input type="submit" value="Send Message" class="btn" />
+  </form>
+</section>
   </main>
 
   <footer class="text-white text-center py-3">
