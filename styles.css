@@ -172,22 +172,6 @@ body {
   resize: none;
 }
 
-.btn {
-  background-color: #8f7fad;
-  color: white; 
-  padding: 10px 20px; 
-  border: none; 
-  border-radius: 5px; 
-  font-size: 1.5rem; 
-  cursor: pointer; 
-  transition: background-color 0.3s, transform 0.3s; /* Added transform transition */
-}
-
-.btn:hover {
-  background-color: #2e488d;
-  transform: scale(1.05); /* Slightly scale up on hover */
-}
-
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .contact form .inputBox input {
