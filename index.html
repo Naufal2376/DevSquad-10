@@ -55,28 +55,26 @@
     </section>
 
     <!-- Contact Section -->
-<section class="contact" id="contact">
-  <h1 class="heading text-4xl font-bold text-center"><span>Contact</span> Us</h1>
-  <form action="submit_form.php" method="POST">
-    <div class="inputBox">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" placeholder="Name" required />
-      
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" placeholder="Email" required />
+<body class="bg-white flex items-center justify-center min-h-screen">
+    <div class="w-full max-w-4xl p-8">
+        <h1 class="text-4xl font-bold text-center text-pink-500 mb-8">CONTACT <span class="text-black">US</span></h1>
+        <form class="space-y-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <input type="text" placeholder="Name" class="p-4 bg-purple-100 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500">
+                <input type="email" placeholder="Email" class="p-4 bg-purple-100 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500">
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <input type="text" placeholder="Number" class="p-4 bg-purple-100 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500">
+                <input type="text" placeholder="Subject" class="p-4 bg-purple-100 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500">
+            </div>
+            <textarea placeholder="Message" class="w-full p-4 bg-purple-100 rounded-md h-48 focus:outline-none focus:ring-2 focus:ring-purple-500"></textarea>
+            <div class="text-center">
+                <button type="submit" class="px-8 py-4 bg-purple-500 text-white rounded-md hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-500">Send Message</button>
+            </div>
+        </form>
     </div>
-    <div class="inputBox">
-      <label for="number">Phone Number</label>
-      <input type="tel" id="number" name="number" placeholder="Phone Number" required />
-      
-      <label for="subject">Subject</label>
-      <input type="text" id="subject" name="subject" placeholder="Subject" required />
-    </div>
-    <label for="message">Message</label>
-    <textarea id="message" name="message" placeholder="Message" cols="30" rows="10" required></textarea>
-    <input type="submit" value="Send Message" class="btn" />
-  </form>
-</section>
+</body>
+</html>
   </main>
 
   <footer class="text-white text-center py-3">
