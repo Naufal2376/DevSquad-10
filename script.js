@@ -25,7 +25,7 @@ $(document).ready(function () {
 
       // Inisialisasi marquee
       $("#marqueeInner").marquee({
-        duration: 35000,
+        duration: 10000,
         gap: 20,
         delayBeforeStart: 0,
         direction: "left",
